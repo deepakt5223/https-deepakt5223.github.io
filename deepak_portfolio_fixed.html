@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deepak Tiwari - Data Analyst Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{font-family:'Inter',sans-serif;background:#eef0f4;color:#0f172a;margin:0}
+.container{max-width:1200px;margin:auto;padding:30px}
+
+.hero{display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}
+.hero-left{flex:1}
+.hero-left h1{font-size:3rem;margin:10px 0}
+.hero-left h1 span{color:#6b21a8}
+.hero-left p{color:#475569;line-height:1.6}
+
+.hero-img img{
+ width:220px;
+ height:220px;
+ object-fit:cover;
+ border-radius:50%;
+ object-position: top center;
+ box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:30px;text-decoration:none;font-weight:600}
+.btn-primary{background:#6b21a8;color:#fff}
+.btn-primary:hover{background:#4c1d95}
+
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;width:45px;height:45px;border-radius:50%;border:2px solid #6b21a8;color:#6b21a8;margin-right:10px;transition:0.3s}
+.icon-btn:hover{background:#6b21a8;color:#fff}
+
+.section{margin-top:70px}
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:25px;margin-top:30px}
+.skill-card{background:#fff;padding:20px;border-radius:16px;text-align:center;box-shadow:0 10px 20px rgba(0,0,0,0.05);transition:0.3s}
+.skill-card:hover{transform:translateY(-5px)}
+.skill-card i{font-size:2rem;margin-bottom:10px}
+
+.mysql{color:#00758f}
+.python{color:#facc15}
+.pandas{color:#130654}
+.numpy{color:#4dabcf}
+.ml{color:#ef4444}
+.powerbi{color:#f59e0b}
+.excel{color:#16a34a}
+.stats{color:#7c3aed}
+.matplotlib{color:#ef4444}
+.seaborn{color:#0ea5e9}
+.databricks{color:#ff3621}
+
+/* PROJECT IMAGES */
+.project-img img{
+ width:100%;
+ height:180px;
+ object-fit:cover;
+ border-radius:12px;
+ margin-bottom:15px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<div class="hero">
+
+<div class="hero-left">
+<p>Hi there, I'm</p>
+<h1><span>Deepak</span> Tiwari</h1>
+<h3>Data Analyst</h3>
+
+<p>I am a passionate and detail-oriented Data Analyst with a strong foundation in Python, SQL, and Machine Learning. I enjoy working with data to uncover meaningful patterns, build insightful visualizations, and support data-driven decision making.</p>
+<p>With hands-on experience in data cleaning, exploratory data analysis (EDA), and dashboard creation, I focus on transforming raw and unstructured data into clear, actionable insights. I am continuously learning and exploring new tools and technologies to enhance my analytical capabilities and solve real-world business problems effectively.</p>
+
+<div style="margin:20px 0">
+<a href="https://github.com/deepakt5223" target="_blank" class="icon-btn"><i class="fab fa-github"></i></a>
+
+<!-- FIXED LINKEDIN -->
+<a href="https://www.linkedin.com/in/YOUR-USERNAME/" target="_blank" class="icon-btn"><i class="fab fa-linkedin"></i></a>
+</div>
+
+<!-- FIXED RESUME -->
+<a href="Deepak_Tiwari.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+
+</div>
+
+<div class="hero-img">
+<img src="deepak_image.jpeg" alt="Deepak Tiwari">
+</div>
+
+</div>
+
+<div class="section">
+<h2>My Skill Set</h2>
+
+<div class="skills-grid">
+<div class="skill-card"><i class="fas fa-database mysql"></i><h4>MySQL</h4></div>
+<div class="skill-card"><i class="fab fa-python python"></i><h4>Python</h4></div>
+<div class="skill-card"><i class="fas fa-chart-line pandas"></i><h4>Pandas</h4></div>
+<div class="skill-card"><i class="fas fa-calculator numpy"></i><h4>NumPy</h4></div>
+<div class="skill-card"><i class="fas fa-brain ml"></i><h4>Machine Learning</h4></div>
+<div class="skill-card"><i class="fas fa-chart-bar powerbi"></i><h4>Power BI</h4></div>
+<div class="skill-card"><i class="fas fa-file-excel excel"></i><h4>Excel</h4></div>
+<div class="skill-card"><i class="fas fa-square-root-alt stats"></i><h4>Statistics</h4></div>
+<div class="skill-card"><i class="fas fa-chart-pie matplotlib"></i><h4>Matplotlib</h4></div>
+<div class="skill-card"><i class="fas fa-chart-area seaborn"></i><h4>Seaborn</h4></div>
+<div class="skill-card"><i class="fas fa-database databricks"></i><h4>Databricks (Basics)</h4></div>
+</div>
+
+</div>
+
+<!-- PROJECTS SECTION -->
+<div class="section">
+<h2>Latest Projects</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<div class="project-img">
+<img src="./ecommerce.png" alt="E-Commerce Project">
+</div>
+<h4>E-Commerce Data Analysis</h4>
+<p>End-to-end analysis of e-commerce data including cleaning, EDA, KPI tracking, and business insights using Python and SQL.</p>
+<a href="https://github.com/deepakt5223/E-Commerce" target="_blank" class="btn btn-primary">View Project</a>
+</div>
+
+<div class="skill-card">
+<div class="project-img">
+<img src="./realestate.png" alt="Real Estate Project">
+</div>
+<h4>Real Estate Property Analysis</h4>
+<p>Analyzed property data to identify pricing trends, location-based insights, and investment opportunities using data analytics techniques.</p>
+<a href="https://github.com/deepakt5223/Real_estate_property-analysis" target="_blank" class="btn btn-primary">View Project</a>
+</div>
+
+<div class="skill-card">
+<div class="project-img">
+<img src="./powerbi.png" alt="Power BI Dashboard">
+</div>
+<h4>Power BI Sales Dashboard</h4>
+<p>Interactive sales dashboard built in Power BI showcasing KPIs, trends, and business performance with dynamic visualizations.</p>
+<a href="https://github.com/deepakt5223/Power_BI-Sales-dashboard" target="_blank" class="btn btn-primary">View Project</a>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
